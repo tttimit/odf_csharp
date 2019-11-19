@@ -7,7 +7,7 @@ namespace Pdf
         public static void Main(string[] args)
         {
             PdfUtils.getPdfAcroFormFields();
-            Console.WriteLine("program end");
+            //PdfUtils.WriteAcroForm();
         }
     }
 }
